@@ -5,6 +5,7 @@ var UserDetails = require('./UserDetails');
 var UserDetailsWrapper = require('./UserDetailsWrapper');
 var Link = require('react-router').Link;
 var MainContainer = require('./MainContainer');
+var Loading = require('./Loading');
 
 function StartOverButton() {
   return (
@@ -19,7 +20,7 @@ function StartOverButton() {
 function Results (props) {
   if (props.isLoading === true) {
     return (
-      <p>LOADING</p>
+      <Loading speed={200} text='Patience'/>
     )
   }
 
