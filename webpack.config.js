@@ -18,5 +18,5 @@ module.exports = {
       template: 'app/index.html'
     })
   ],
-  mode: 'development'
-}
+  mode: "development"
+};
