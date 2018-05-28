@@ -1,5 +1,5 @@
 {
-  "name": "github-battle-take-two",
+  "name": "github-battle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,22 +7,20 @@
     "create": "webpack",
     "start": "webpack-dev-server --open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michaelyfan/github-battle-take-two.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/michaelyfan/github-battle-take-two/issues"
-  },
-  "homepage": "https://github.com/michaelyfan/github-battle-take-two#readme",
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "query-string": "^6.1.0",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
